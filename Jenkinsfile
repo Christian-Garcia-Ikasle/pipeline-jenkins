@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         // https://hub.docker.com/repositories
-        imageName = "Christian-Garcia-Ikasle/nginx-egibide"
+        imageName = "widemos/nginx-egibide"
 
         // https://hub.docker.com/settings/security
         registryCredential = 'docker-hub'
